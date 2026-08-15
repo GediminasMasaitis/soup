@@ -1,14 +1,24 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+mod after_move;
+mod after_null;
+mod attack_info;
+mod bitboard;
+mod bitboard_iter;
+mod castling;
+mod count_moves;
+pub mod error;
+pub mod fen;
+mod in_check;
+mod is_attacked;
+pub mod is_valid;
+mod legal_ep;
+mod legal_moves;
+mod magic;
+mod makemove;
+mod move_generator;
+pub mod movetype;
+mod perft;
+pub mod piece;
+pub mod position;
+pub mod side;
+pub mod square;
+mod zobrist;
