@@ -1,7 +1,8 @@
 [workspace]
 resolver = "3"
 members = [
-    "chess"
+    "chess",
+    "engine",
 ]
 
 [profile.release]
